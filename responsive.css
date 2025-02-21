@@ -1,0 +1,166 @@
+@media screen and (max-width:900px){
+
+    header .menu-desktop, header .btn-contato{
+        display: none;
+        margin: 10%;
+    }
+
+    header .btn-menu-mob{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width:878px){
+        .hero-site .txt-hero h1{
+            font-size: 2.6em;
+            line-height: 45px;
+            
+        }
+        
+        .hero-site .txt-hero p{
+            font-size: 16px;
+            
+        }
+        
+        .hero-site .txt-hero p span{
+            display: inline;
+        }
+        
+        .hero-site button{
+        
+            font-size: 18px;
+        }
+
+
+            /* ----VANTAGENS---- */
+            .vantagens .itens-container{
+
+                flex-direction: column;
+            }
+
+            .vantagens .itens-container .img-itens img{
+                width: 100%;
+            }
+
+            .vantagens .itens-container .txt-itens p{
+                margin-bottom: 20px;
+            }
+            .vantagens .itens-container .item-1{
+                order: 1;
+            }
+            .vantagens .itens-container .item-2{
+                order: 0;
+            }
+
+            /* ----ESTILO BOTÃO CONTATO---- */
+
+            .txt-contato, .icons-contato{
+                display: block;
+                width: 100%;
+                padding: 20px;
+            }
+
+            .contato .txt-contato h3{
+                font-size: 2em;
+                line-height: 40px;
+            }
+
+            .contato .icons-contato button{
+                width: 100%;
+            }
+
+            .contato .icons-contato button i{
+                font-size: 24px;
+            }
+
+            .contato .icons-contato button:hover{
+            background-color: #000;
+            }
+
+            .contato .icons-contato button:hover i, .contato .icons-contato button:hover p{
+                color: #f7eeee;
+            }
+
+            .contato .txt-contato p{
+                margin-bottom: 10px;
+            }
+
+            /* --------- */
+
+            .hoteis h3{
+                font-size: 2.3em;
+                line-height: 40px;
+
+            }
+
+
+            .hoteis p{
+                margin: 20px 0;
+                font-size: 16px;
+                margin: 10px;
+                
+            }
+
+            /* ---------- */
+
+            .txt-funciona, .instrucoes{
+                display: block;
+                width: 100%;
+            }
+
+            .como-funciona .txt-funciona{
+                position: static;
+                text-align: center;
+            }
+
+            .como-funciona .txt-funciona h3{
+                padding: 20px;
+                font-size: 3em;
+                line-height: 5px;
+                top: 100px;
+                
+            }
+
+            .instrucoes .instru-box p{
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .como-funciona .txt-funciona h3 span {
+                display: block;
+                font-weight: 700;
+            }
+
+            .instrucoes .instru-box{
+       
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                margin-bottom: 40px;
+                border: 2px solid #000;
+            }
+
+            .instrucoes .instru-box img{
+                max-width: 100px;
+            }
+
+            /* ------- */
+
+            footer .middle-footer a{
+                margin: 15px 0;
+                display: block;
+            }
+
+            footer .bottom-footer p{
+                color: #f7eeee;
+                margin-top: 10px;
+
+                font-size: 14px;
+            }
+
+            
+}
+          
+
